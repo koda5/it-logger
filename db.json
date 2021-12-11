@@ -1,47 +1,28 @@
 {
   "logs": [
     {
-      "message": "Changed network card in server 007",
+      "id": 1,
+      "message": "Nova popravka",
+      "attention": true,
+      "tech": "John Doe",
+      "date": "2021-12-11T13:18:50.279Z"
+    },
+    {
+      "message": "Treba da se napravi routerot",
       "attention": false,
       "tech": "Sam Smith",
-      "date": "2019-05-31T15:46:10.179Z",
-      "id": 1
+      "date": "2021-12-10T17:30:42.713Z",
+      "id": 2
     },
     {
-      "id": 2,
-      "message": "Fixed hard drive on workstation 002",
+      "id": 3,
+      "message": "Popraveno",
       "attention": false,
-      "tech": "John Doe",
-      "date": "2019-05-31T16:18:04.245Z"
-    },
-    {
-      "message": "1122 wireless down",
-      "attention": true,
-      "tech": "Sara Wilson",
-      "date": "2019-05-31T15:46:48.690Z",
-      "id": 3
-    },
-    {
-      "id": 4,
-      "message": "Workstation 026 is up and running",
-      "attention": false,
-      "tech": "Sara Wilson",
-      "date": "2019-05-31T19:57:35.544Z"
-    },
-    {
-      "message": "Popravka na komputeri na skolo",
-      "attention": false,
-      "tech": "Leon Kodovski",
-      "date": "2021-12-10T16:53:32.245Z",
-      "id": 5
+      "tech": "Veronija Kodovska",
+      "date": "2021-12-11T13:25:31.090Z"
     }
   ],
   "techs": [
-    {
-      "id": 1,
-      "firstName": "John",
-      "lastName": "Doe"
-    },
     {
       "id": 2,
       "firstName": "Sam",
@@ -56,6 +37,16 @@
       "firstName": "Leon",
       "lastName": "Kodovski",
       "id": 4
+    },
+    {
+      "firstName": "Veronija",
+      "lastName": "Kodovska",
+      "id": 5
+    },
+    {
+      "firstName": "Baze ",
+      "lastName": "Nacev",
+      "id": 6
     }
   ]
 }

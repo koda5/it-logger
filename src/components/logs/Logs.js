@@ -34,10 +34,13 @@ Logs.propTypes = {
   getLogs: PropTypes.func.isRequired
 };
 
+ //ovde log e prop i moze da go krsstime kako sakame
+ // log od state.log doagja od root reducerot - /reducers/index.js
 const mapStateToProps = state => ({
   log: state.log
 });
 
+//ako vikame funkcija od actions, mora da ja importirame gore ama i ovde da ja dodademe
 export default connect(
   mapStateToProps,
   { getLogs }

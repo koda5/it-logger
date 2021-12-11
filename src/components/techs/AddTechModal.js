@@ -5,6 +5,7 @@ import { addTech } from '../../actions/techActions';
 import M from 'materialize-css/dist/js/materialize.min.js';
 
 const AddTechModal = ({ addTech }) => {
+  //commponent level state t.e. useState hooks se zadrzuva koga imame forma, barem taka razbrav
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
 

@@ -6,6 +6,9 @@ import { addLog } from '../../actions/logActions';
 import M from 'materialize-css/dist/js/materialize.min.js';
 
 const AddLogModal = ({ addLog }) => {
+
+  //Ovie ostanuvaat bidejkji e commponent level state a ne app state
+  
   const [message, setMessage] = useState('');
   const [attention, setAttention] = useState(false);
   const [tech, setTech] = useState('');
